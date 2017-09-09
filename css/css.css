@@ -1,0 +1,29 @@
+html, body { 
+	height: 100%;
+	overflow: hidden; 
+}
+body { 
+	text-align: center;
+	background: #222222;
+}
+body::before
+{
+	content: ”;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#name
+{               
+    position: absolute;
+    height: auto;
+    width: auto;    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #888888;
+}
