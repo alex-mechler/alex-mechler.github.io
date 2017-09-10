@@ -9,7 +9,7 @@ body
 	text-align: center;
 	background: #222222;
 }
-body::before
+.middle:before
 {
 	content: ”;
 	display: inline-block;
@@ -17,7 +17,7 @@ body::before
 	vertical-align: middle;
 }
 
-body
+.middle
 {               
 	position: absolute;
 	height: auto;
@@ -83,6 +83,18 @@ br
 	color: #777777;
 	font-family: "Good Times";
 	font-size: 1.25em;
+}
+
+#status
+{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	color: #777777;
+	font-family: "Good Times";
+	font-size: 1em;
 }
 
 @font-face {
