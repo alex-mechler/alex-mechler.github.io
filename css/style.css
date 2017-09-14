@@ -74,7 +74,7 @@ br
 {
 	color: #888888;
 	font-family: "Good Times";
-	font-size: 2.5em;
+	font-size: 2.75vw;
 	text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ br
 {
 	color: #777777;
 	font-family: "Good Times";
-	font-size: 1.25em;
+	font-size: 1.5vw;
 }
 
 #status
@@ -94,7 +94,7 @@ br
 	width:100%;
 	color: #777777;
 	font-family: "Good Times";
-	font-size: 1em;
+	font-size: 1.25vw;
 }
 
 @font-face {
